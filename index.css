@@ -1,6 +1,14 @@
+body {
+  margin: 0;
+  /*background-color: rgb(221, 221, 197);*/
+  background-color:#CFD8DC
+  font-family:Monospace;
+  letter-spacing: 1px;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #CFD8DC;
+    background-color: #fff;
     overflow: hidden;
 }
 
