@@ -35,7 +35,10 @@
      background-color: #e62b1e;
      color: white;
  }
- 
+.img2018Logo {
+    height: 210px;
+    width: 210px;
+}
 .Logo {
     height: 60px;
     width: 210px;
