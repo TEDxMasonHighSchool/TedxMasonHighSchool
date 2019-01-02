@@ -10,6 +10,7 @@
  .topnav {
      background-color: #fff;
      overflow: hidden;
+     margin-top: 10px;
  }
  
  /* Style the links inside the navigation bar */
