@@ -112,7 +112,7 @@ div.container {
 
 /* Clearfix (clear floats) */
 .row::after {
- margin-left: 20px;
+ margin-left: 50px;
   content: "";
   clear: both;
   display: table;
