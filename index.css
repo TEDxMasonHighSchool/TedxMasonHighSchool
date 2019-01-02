@@ -105,13 +105,14 @@ div.container {
 }
 
 .column {
-  float: center;
+  float: left;
   width: 30%;
   padding: 10px;
 }
 
 /* Clearfix (clear floats) */
 .row::after {
+ margin-left: 20px;
   content: "";
   clear: both;
   display: table;
