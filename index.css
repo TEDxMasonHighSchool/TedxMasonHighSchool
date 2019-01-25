@@ -11,6 +11,7 @@
      background-color: #fff;
      overflow: hidden;
      margin-top: 10px;
+  
  }
  
  /* Style the links inside the navigation bar */
@@ -119,6 +120,9 @@ div.container {
   content: "";
   clear: both;
   display: table;
+}
+div.main{
+width:700px;
 }
 </style>
 </head>
