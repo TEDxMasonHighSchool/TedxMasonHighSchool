@@ -1,129 +1,294 @@
  body {
-   margin: 0;
-   /*background-color: rgb(221, 221, 197);*/
-   background-color:#CFD8DC
-   font-family:Monospace;
-   letter-spacing: 1px;
- }
+   font-family: 'Muli', sans-serif;
+   font-size: 20px;
+   text-decoration: none;
+  }
  
+hr{
+    border: none;
+    height: 4px;
+    color: 1D1F20;
+    background-color: 1D1F20;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+hr2{
+    border: none;
+    height: 4px;
+    color: 1D1F20;
+    background-color: 1D1F20;
+    margin: 50px;
+}
+h3{
+  padding-top:90px;
+  padding-left:40px;
+  font-size: 30px;
+
+}
+.h1Edit {
+  font-family: 'Muli', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 80px;
+  color: 1D1F20
+
+}
+
+.pEdit{
+  font-family: 'Muli', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 80px;
+  color: 1D1F20
+}
+.footer{
+  font-family: 'Muli', sans-serif;
+  font-size: 15px;
+  background-color:#1D1F20;
+  height: 100px;
+  width: 100%;
+  margin-top: 60px;
+  color:gainsboro;
+  text-align: center;
+}
+a {
+  color: gainsboro;
+}
+a:link {
+  color: gainsboro;
+  text-decoration: none;
+}
+
+a:visited {
+  color: gainsboro;
+  text-decoration: none;
+}
+.button{
+  border-radius: 0px;
+  font-family: 'Muli', sans-serif;
+  font-size: 20px;
+  background-color: Transparent;
+  width: 250px;
+  height: 50px;
+  border: 3px solid whitesmoke;
+  color: whitesmoke;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  position: absolute;
+  top: 45%;
+  }
+  .wrapper {
+    text-align: center;
+}
+  .button:hover {
+  background-color:white;
+  color:black;
+  font-weight: bold;
+  border:0px;
+}
+.navarea{
+    float:right;
+    margin-right: 30px;
+}
  /* Add a black background color to the top navigation */
  .topnav {
-     background-color: #fff;
+     padding-top: 20px;
      overflow: hidden;
-     margin-top: 10px;
-  
+     text-decoration: none;
  }
  
  /* Style the links inside the navigation bar */
  .topnav a {
      float: left;
-     color: #424949;
+     color: whitesmoke;
      text-align: center;
      padding: 14px 16px;
      text-decoration: none;
-     font-size: 17px;
-     font-family: 'PT Sans', sans-serif;
- }
+     font-size: 18px;
+     font-family: 'Muli', sans-serif;
+   }
  
  /* Change the color of links on hover */
  .topnav a:hover {
-     background-color: #ddd;
-     color: black;
+     color: red;
+     text-decoration: none;
+     font-weight: bold;
+
  }
  
  /* Add a color to the active/current link */
  .topnav a.active {
-     background-color: #e62b1e;
-     color: white;
+     color:#e62b1e;
+       font-weight: bold;
+
+
  }
 .img2018Logo {
     height: 210px;
     width: 210px;
+    padding-left: 20px;
 }
 .Logo {
-    height: 60px;
-    width: 210px;
-    padding: 15px 15px;
-    padding: 0px 0px;
- } body {
-   margin: 0;
-   /*background-color: rgb(221, 221, 197);*/
-   background-color:#CFD8DC
-   font-family:Monospace;
-   letter-spacing: 1px;
+    height: 77px;
+    width: 300px;
  }
- 
- /* Add a black background color to the top navigation */
- .topnav {
-     background-color: #fff;
-     overflow: hidden;
- }
- 
- /* Style the links inside the navigation bar */
- .topnav a {
-     float: left;
-     color: #424949;
-     text-align: center;
-     padding: 14px 16px;
-     text-decoration: none;
-     font-size: 17px;
-     font-family: 'PT Sans', sans-serif;
- }
- 
- /* Change the color of links on hover */
- .topnav a:hover {
-     background-color: #ddd;
-     color: black;
- }
- 
- /* Add a color to the active/current link */
- .topnav a.active {
-     background-color: #e62b1e;
-     color: white;
- }
- 
-.Logo {
-    height: 60px;
-    width: 210px;
-    padding: 0px 0px;
- }
-
-
-
-  body {margin:25px;}
 
 div.polaroid {
-  width: 300px;
-  height: 300px;
-  background-color: white;
-  margin-bottom: 25px;
+  width: 250px;
+  height: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container.-line-bottom{
+  position:relative;
+  left: 0;
+  right: 0;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  width: 100%;
+  text-align: center;
 }
 
-div.container {
+.title-bar{
+  padding: 60px;
+  content:"";
+  display:block;
+  position:absolute;
+  height:350px;
+  width:300px;
+  background-color:#e62b1e;
+  top:0;
+  right:0;
+}
+
+.container {
   text-align: center;
-  padding: 10px 20px;
+}
+.borderdesign{
+  border-left: 40px solid whitesmoke;
+  border-right: 40px solid whitesmoke;
 }
 * {
   box-sizing: border-box;
 }
+mark{
+    background-color:whitesmoke;
 
-.column {
-  float: left;
-  width: 25%;
-  padding: 10px;
+}
+mark:hover {
+  background-color:#e62b1e;
+}
+p {
+    word-break: break-all;
+    white-space: normal;
+    font-family: 'Muli', sans-serif;
+    font-size: 15px;
+    text-align: center;
+
+}
+.p2 {
+    word-break:normal;
+    white-space: normal;
+    font-family: 'Muli', sans-serif;
+    font-size: 20px;
+    padding-left:40px;
+    line-height: 35px;
+    text-align: left;
+}
+.p3 {
+    word-break:normal;
+    white-space: normal;
+    font-family: 'Muli', sans-serif;
+    font-size: 15px;
+    padding-left:40px;
+    line-height: 25px;
+    text-align: left;
+}
+.p4{
+    word-break: break-all;
+    white-space: normal;
+    font-family: 'Muli', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.h2edit{
+   font-family: 'Muli', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+.topBanner{
+  background-size: cover;
+  height: 800px;
+  background-image: url("WebHeader\\khaula2.jpeg");
+}
+.topBannerShort{
+  background-size: cover;
+  height: 496px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.row{
+  margin-bottom:40px;
+}
+.row2{
+  height: 100%;
+}
+.bannerWord{
+  top: 30%;
+  left: 45%;
+  position: absolute;
+  color: whitesmoke;
+  font-size: 50px;
+  font-family: 'Muli', sans-serif;
+  text-align: center;
+}
+.bannerWordHome{
+  top: 30%;
+  left:0%;
+  position: absolute;
+  color: whitesmoke;
+  font-size: 50px;
+  font-family: 'Muli', sans-serif;
+  text-align: left;
 }
 
-/* Clearfix (clear floats) */
-.row::after {
- margin-bottom: 100px;
- margin-left: 100px;
-  content: "";
-  clear: both;
-  display: table;
+.columns.eight {
+    width: 66.66667%;
 }
-div.main{
-width:700px;
+.row2{
+  display: block;
+    margin: 0 auto;
+    max-width: 1024px;
+    overflow: hidden;
 }
-</style>
-</head>
-<body>
+.profile .name {
+    color: #e74c3c;
+    font-weight: bold;
+    font-size: 13pt;
+    display: block;
+    line-height: 110%;
+    border-bottom: 1px dotted #999;
+    margin-bottom: 7px;
+}
+.profile .bio {
+    font-size: 11pt;
+    line-height: 110%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
