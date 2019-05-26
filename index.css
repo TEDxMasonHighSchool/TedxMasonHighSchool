@@ -281,6 +281,13 @@ p {
     line-height: 110%;
 }
 
+.sponsors {
+  width: 500px;
+  height: 500px;
+  display: block;
+  margin-left: 100px;
+  margin-right: 100px; 
+}
 
 
 
