@@ -155,12 +155,13 @@ div.polaroid {
 }
 
 .title-bar{
+  margin-right: 20px;
   padding: 0px;
   content:"";
   display:block;
   position:absolute;
   height:350px;
-  width:500px;
+  width:3500px;
   background-color:#e62b1e;
   top:0;
   right:0;
