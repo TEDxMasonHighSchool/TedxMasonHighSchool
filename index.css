@@ -21,7 +21,11 @@ hr2{
     background-color: 1D1F20;
     margin: 50px;
 }
-h3{
+h1{
+  font-family: 'Playfair Display', serif;
+}
+
+{
  font-family: 'Playfair Display', serif;
   padding-top:90px;
   padding-left:40px;
