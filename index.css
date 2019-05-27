@@ -155,7 +155,7 @@ div.polaroid {
 }
 
 .title-bar{
-  margin-right: 20px;
+  margin-right: 0px;
   padding: 0px;
   content:"";
   display:block;
