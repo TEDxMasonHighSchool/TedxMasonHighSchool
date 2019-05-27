@@ -14,6 +14,7 @@ hr{
 
 }
 hr2{
+ font-family: 'Playfair Display', serif;
     border: none;
     height: 4px;
     color: 1D1F20;
@@ -21,13 +22,14 @@ hr2{
     margin: 50px;
 }
 h3{
+ font-family: 'Playfair Display', serif;
   padding-top:90px;
   padding-left:40px;
   font-size: 30px;
 
 }
 .h1Edit {
-font-family: 'Muli', sans-serif;
+font-family: 'Playfair Display', serif;
   font-size: 40px;
   text-align: center;
   padding-top: 80px;
@@ -246,7 +248,7 @@ font-family: 'Muli', sans-serif;
   position: absolute;
   color: whitesmoke;
   font-size: 50px;
-font-family: 'Muli', sans-serif;
+font-family: 'Playfair Display', serif;
   text-align: center;
 }
 .bannerWordHome{
