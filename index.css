@@ -254,6 +254,11 @@ font-family: 'Muli', sans-serif;
   background-position: center;
   background-repeat: no-repeat;
 }
+.brickback{
+  background-size: cover;
+  height: 800px;
+  background-image: url("WebHeader\\khaula2.jpeg");
+}
 .row{
   margin-bottom:40px;
 }
