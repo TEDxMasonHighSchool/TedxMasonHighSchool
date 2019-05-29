@@ -8,7 +8,7 @@ hr{
 
     border: none;
     height: 4px;
-    color: 1D1F20;
+    color: 23282E;
     background-color: 1D1F20;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -18,8 +18,8 @@ hr2{
 font-family: 'Muli', sans-serif;
     border: none;
     height: 4px;
-    color: 1D1F20;
-    background-color: 1D1F20;
+    color: 23282E;
+    background-color: 23282E;
     margin: 50px;
 }
 h1{
@@ -55,7 +55,7 @@ font-family: 'Muli', sans-serif;
 .footer{
 font-family: 'Muli', sans-serif;
   font-size: 15px;
-  background-color:#1D1F20;
+  background-color:#23282E;
   height: 70px;
   width: 100%;
   margin-top: 60px;
